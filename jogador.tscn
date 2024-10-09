@@ -6,12 +6,11 @@
 size = Vector2(173.315, 272.354)
 
 [node name="Jogador" type="CharacterBody2D"]
-position = Vector2(104, 720)
+position = Vector2(129, 623)
 scale = Vector2(0.559675, 0.569112)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-4.4669, 4.39258)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_00poj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
