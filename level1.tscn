@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://xo2ge8i1ywtw"]
+
+[ext_resource type="PackedScene" uid="uid://dmdm1vkaxexku" path="res://jogador.tscn" id="1_b5fk8"]
+[ext_resource type="Texture2D" uid="uid://cps5al4ykq3ob" path="res://assets/tilechao.png" id="2_2fxu8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Jogador" parent="." instance=ExtResource("1_b5fk8")]
+z_index = 4
+position = Vector2(126, 575)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(71, 742)
+scale = Vector2(0.437946, 0.36257)
+texture = ExtResource("2_2fxu8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(211, 742)
+scale = Vector2(0.437946, 0.36257)
+texture = ExtResource("2_2fxu8")

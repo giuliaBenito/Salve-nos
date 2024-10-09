@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmdm1vkaxexku"]
+
+[ext_resource type="Texture2D" uid="uid://bof3y64eybcc1" path="res://assets/sarah-arquivo.png" id="1_1lu3g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_00poj"]
+size = Vector2(173.315, 272.354)
+
+[node name="Jogador" type="CharacterBody2D"]
+position = Vector2(104, 720)
+scale = Vector2(0.559675, 0.569112)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.4669, 4.39258)
+scale = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_00poj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1lu3g")
